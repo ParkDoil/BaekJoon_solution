@@ -6,15 +6,11 @@ using namespace std;
 
 int main()
 {
-	list<char> editor;
-	list<char>::iterator iter;
-
-	editor.clear();
-
-	iter = editor.begin();
-
 	string set;
 	cin >> set;
+
+	list<char> editor;
+	list<char>::iterator iter;
 
 	for (int i = 0; i < set.length(); ++i)
 	{

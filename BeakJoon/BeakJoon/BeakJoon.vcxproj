@@ -127,8 +127,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Source\BaekJoon_1406.cpp" />
-    <ClCompile Include="Source\BaekJoon_5397.cpp" />
+    <ClCompile Include="BaekJoon_2609.cpp" />
+    <ClCompile Include="BaekJoon_4673.cpp" />
+    <ClCompile Include="Source\BaekJoon_1406.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Source\BaekJoon_5397.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

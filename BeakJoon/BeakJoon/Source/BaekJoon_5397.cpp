@@ -44,7 +44,8 @@ int main()
 			case '-':
 				if (iter != password.begin())
 				{
-					iter = password.erase(--iter);
+					--iter;
+					iter = password.erase(iter);
 				}
 				break;
 

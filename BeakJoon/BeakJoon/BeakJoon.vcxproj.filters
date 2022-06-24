@@ -24,7 +24,40 @@
     <ClCompile Include="BaekJoon_2609.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="BaekJoon_4673.cpp">
+    <ClCompile Include="BaekJoon_10828.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BaekJoon_10773.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BaekJoon_9012.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BaekJoon_4949.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BaekJoon_18258.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BaekJoon_2164.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BaekJoon_11025.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BaekJoon_1966%28보류%29.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BaekJoon_10866.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BaekJoon_1106%28반례란 무엇인가%29.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BaekJoon_11866.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BaekJoon_3036.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

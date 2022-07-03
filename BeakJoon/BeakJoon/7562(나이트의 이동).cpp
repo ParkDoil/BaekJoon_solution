@@ -10,13 +10,10 @@ int knightR, knightC;
 int destinationR, destinationC;
 
 int chessBoard[300][300];
-int moveCount;
-bool isVisited[300][300];
 
 void bfs(int kr, int kc)
 {
-	isVisited[kr][kc] = true;
-	chessBoard[kr][kc] = moveCount;
+	chessBoard[kr][kc] = 1;
 
 	queue<pair<int, int>> Chess;
 	Chess.push({ kr, kc });
@@ -33,7 +30,8 @@ void bfs(int kr, int kc)
 
 		if (tr == destinationR && tc == destinationC)
 		{
-			cout << chessBoard[tr][tc] << "\n";
+			cout << chessBoard[tr][tc] - 1 << "\n";
+			break;
 		}
 		
 		for (int i = 0; i < 8; ++i)
@@ -47,16 +45,13 @@ void bfs(int kr, int kc)
 			}
 			else
 			{
-				if (false == isVisited[gr][gc])
+				if (chessBoard[gr][gc] == 0)
 				{
-					isVisited[gr][gc] = true;
 					Chess.push({ gr, gc });
 					chessBoard[gr][gc] = chessBoard[tr][tc] + 1;
 				}
 			}
 		}
-
-
 	}
 
 }
@@ -73,8 +68,6 @@ int main()
 	for (int i = 0; i < testCase; ++i)
 	{
 		memset(chessBoard, 0, sizeof(chessBoard));
-		memset(isVisited, false, sizeof(isVisited));
-		moveCount = 0;
 
 		cin >> chessI;
 		cin >> knightR >> knightC;
@@ -82,7 +75,7 @@ int main()
 
 		bfs(knightR, knightC);
 
-		cout << "\n";
+		/*cout << "\n";
 		for (int r = 0; r < chessI; ++r)
 		{
 			for (int c = 0; c < chessI; ++c)
@@ -91,7 +84,7 @@ int main()
 			}
 			cout << "\n";
 			cout << "\n";
-		}
+		}*/
 
 	}
 

@@ -13,9 +13,9 @@ int main()
 
 	cin >> needsPeople >> cityCount;
 
-	int* pay = new int[cityCount];
-	int* people = new int[cityCount];
-	double* efficiency = new double[cityCount];
+	int pay[20];
+	int people[20];
+	double efficiency[20];
 	
 	double maxEfficiency;
 	int bestIndex = 0;
@@ -51,7 +51,7 @@ int main()
 
 	int result = 0;
 	int process = needsPeople / people[bestIndex];
-	int remain = needsPeople - (process*people[bestIndex]);
+	int remain = needsPeople - (process * people[bestIndex]);
 
 	for (int i = 0; i < process; ++i)
 	{
@@ -66,9 +66,5 @@ int main()
 
 	cout << result;
 
-	delete[] pay;
-	delete[] people;
-	delete[] efficiency;
-
 	return 0;
-}
+  }

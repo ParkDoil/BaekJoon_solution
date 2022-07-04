@@ -177,5 +177,8 @@
     <ClCompile Include="11399(ATM).cpp">
       <Filter>소스 파일\푼 문제</Filter>
     </ClCompile>
+    <ClCompile Include="1620(나는야 포켓몬 마스터).cpp">
+      <Filter>소스 파일\못푼 문제</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

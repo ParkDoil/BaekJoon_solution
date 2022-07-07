@@ -178,7 +178,16 @@
       <Filter>소스 파일\푼 문제</Filter>
     </ClCompile>
     <ClCompile Include="1620(나는야 포켓몬 마스터).cpp">
-      <Filter>소스 파일\못푼 문제</Filter>
+      <Filter>소스 파일\푼 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="25314(코딩은 체육과목 입니다).cpp">
+      <Filter>소스 파일\푼 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="7785(회사에 있는 사람).cpp">
+      <Filter>소스 파일\푼 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="5430%28AC%29.cpp">
+      <Filter>소스 파일\푼 문제</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
